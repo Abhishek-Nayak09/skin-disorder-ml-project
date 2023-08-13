@@ -260,34 +260,26 @@ def main():
     st.subheader("Disease Represented:")
     
     st.write("")
+    st.write("1. Psoriasis Disease")
+    image_url1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTc5Vor1XgCHmU77FzqrZTID87kA7zFWtFlA&usqp=CAU"
+    st.image(image_url1)
+    st.write("2. Seboreic dermatitis Disease")
+    image_url2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbavESiZvnvBGVhvuSdhN5FipnJo2bNNm8tQ&usqp=CAU"
+    st.image(image_url2)
+    st.write("3. Lichen planus Disease")
+    image_url3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZOWJAnYiXrAWIJ_dIsh6a9fa1IMxxbCZ8ZQ&usqp=CAU"
+    st.image(image_url3) 
+    st.write("4. pityriasis rosea Disease")
+    image_url4 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmK82YtGsXzkWozJ16udQ-iu_PcNYeO5cTXA&usqp=CAU"
+    st.image(image_url4)
+    st.write("5. cronic dermatitis Disease")
+    image_url5 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPCoKMgLsfQSkdvscI9DdOXLVPwH6T0SxZw&usqp=CAU"
+    st.image(image_url5)
+    st.write("6. pityriasis rubra pilaris Disease")
+    image_url6 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmmT41XaAErTUrOjwJ-VJOFHq0u-7D-WN6Pw&usqp=CAU"
+    st.image(image_url6)
 
-    col01, col02, col03  = st.columns(3)
-
-    with col01:
-        st.write("1. Psoriasis Disease")
-        image_url1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTc5Vor1XgCHmU77FzqrZTID87kA7zFWtFlA&usqp=CAU"
-        st.image(image_url1)
-        st.write("4. pityriasis rosea Disease")
-        image_url4 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmK82YtGsXzkWozJ16udQ-iu_PcNYeO5cTXA&usqp=CAU"
-        st.image(image_url4)
-        
-    with col02:
-        st.write("2. Seboreic dermatitis Disease")
-        image_url2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbavESiZvnvBGVhvuSdhN5FipnJo2bNNm8tQ&usqp=CAU"
-        st.image(image_url2)
-        st.write("5. cronic dermatitis Disease")
-        image_url5 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPCoKMgLsfQSkdvscI9DdOXLVPwH6T0SxZw&usqp=CAU"
-        st.image(image_url5)
-        
-        
-    
-    with col03:
-        st.write("3. Lichen planus Disease")
-        image_url3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZOWJAnYiXrAWIJ_dIsh6a9fa1IMxxbCZ8ZQ&usqp=CAU"
-        st.image(image_url3) 
-        st.write("6. pityriasis rubra pilaris Disease")
-        image_url6 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmmT41XaAErTUrOjwJ-VJOFHq0u-7D-WN6Pw&usqp=CAU"
-        st.image(image_url6)
+   
 
     st.subheader("ABOUT EACH FEATURES:")
 # Header
